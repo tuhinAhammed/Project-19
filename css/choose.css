@@ -1,0 +1,44 @@
+.choose{
+    padding: var(--primary-padding) 0px;
+}
+.choose__wrapper{
+    text-align: center;
+}
+.choose__wrapper h2 {
+    padding: 0px 400px;
+}
+.choose__content{
+    width: 100%;
+    display: flex;
+    padding: 120px 0px 0px 0px;
+    column-gap: 70px;
+
+}
+.choose__content__left{
+}
+.choose__content__box{
+    
+}
+.choose .section__docs{
+    padding: 0px 350px;
+}
+.choose__content__box img{
+    width: 58px;
+    height: 64px;
+}
+.choose__content__box h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #000;
+    padding: 20px 0px 10px 0px;
+}
+.choose__content__box p{
+    font-size: 16px;
+    color: #737373;
+}
+.choose__content__right{
+}
+.choose__content__left__bottom{
+    display: inline-block;
+
+}

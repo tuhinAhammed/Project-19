@@ -1,0 +1,31 @@
+.footer{
+    padding: var(--primary-padding) 0px 0px  0px;
+    background-color: #fff;
+}
+.footer__wrapper{
+    display: flex;
+    column-gap: 80px;
+}
+.footer__wrapper__menu{
+    width: 30%;
+    text-align: center;
+}
+.footer__wrapper__menu__title{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+.footer__wrapper__menu__text{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #7B7B7B;
+    padding: 5px 0px;
+}
+.footer__bottom{
+    text-align: center;
+    color: #717171;
+    padding: 33px 0px;
+    margin-top: 20px;
+    border-top: 1px solid #D0D0D0;
+}

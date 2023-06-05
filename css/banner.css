@@ -1,0 +1,56 @@
+.banner{
+    background-image: url(../images/agenc-Banner\ 1.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.banner:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: -1;
+    }
+.banner__wrapper{
+    padding: 315px 185px 176px;
+    text-align: center;
+}
+.banner__title{
+    font-size: 75px;
+    line-height: 85px;
+    font-weight: 700;
+    color: #fff;
+}
+.banner__discription{
+    font-size: 16px;
+    line-height:26px;
+    color: #fff;
+    font-weight: 400;
+    padding: 50px 150px 40px 150px
+}
+.banner__slider__box{
+
+}
+.banner__slider_box__inner {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 6rem;
+}
+.banner__slider_box__inner__card{
+    width: 24px;
+    height: 24px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.banner__slider_box__inner__card:first-child{
+    border: 2px solid #fff;
+}
+.banner__slider_box__inner__card:hover{
+    border: 2px solid #fff;
+}

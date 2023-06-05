@@ -1,0 +1,55 @@
+.contact{
+    padding: var(--primary-padding) 0px;
+    background:#F3F3F3;
+    
+}
+.contact__wrapper{
+    display: flex;
+    column-gap:146px;
+    align-items: center;
+}
+.contact__left{
+    width: 60%;
+}
+.contact__right{
+    width: 40%;
+}
+.contact .section__docs{
+    padding: 0px 135px 0px 0px;
+}
+.contact__right__quote{
+    padding: 60px 40px 50px 40px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.contact__right__quote__title{
+    font-size: 30px;
+    line-height: 40px;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.contact__right__quote__form{
+    padding: 30px 0px;
+}
+.contact__right__quote__form__label{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--secondary-color);
+    display: block;
+}
+.contact__right__quote__form input{
+    width: 100%;
+    font-size: 16px;
+    color: #D0D0D0;
+    padding: 20px 23px;
+    font-weight: 400;
+    border-radius: 10px;
+    border:1px solid #D0D0D0;
+}
+.contact__right__quote__form__label__btn{
+    width: 100%;
+}
+.contact__right__quote__form__label__btn:hover{
+    color: var(--primary-color);
+}
